@@ -29,3 +29,4 @@ script:
   - go test -race -count=1 -coverprofile=main.coverprofile
   - $HOME/gopath/bin/gover
   - $HOME/gopath/bin/goveralls -coverprofile=gover.coverprofile -service travis-ci
+
